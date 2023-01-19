@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+    body{
+        background-color: hsl(0, 0%, 0%);
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }        
+
+    h1, .h1-2{
+        color: hsl(0, 0%, 100%);
+    }
+
+    p, .p-2 {
+        color: hsl(217, 12%, 63%);
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    } 
+
+    .conteudo{
+        display: block;
+        width: 21rem;
+        height: 27rem;
+        background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        border-radius: 1rem;
+        padding: 2rem;
+        font-family: 'Overpass', sans-serif;
+        align-items: center;
+    }
+
+    .conteudo2{
+        display: none;
+        width: 21rem;
+        height: 27rem;
+        background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+        border-radius: 1rem;
+        padding: 2rem;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .btnSubmit{
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(25, 97%, 53%);
+        padding: 1rem;
+        padding-left: 9rem;
+        padding-right: 9rem;
+        border-radius: 3rem;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing: 0.09rem;
+    }
+
+    .btnVotos{
+        width: 25rem;
+        height: 5rem;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding-left: 0.05rem;
+    }
+
+    .bt{
+        color: hsl(217, 12%, 63%);
+        background-color: hsl(213, 19%, 18%);
+        padding: 1rem 1.2rem;
+        border-radius: 20rem;
+        align-items:baseline;
+        justify-content: space-between;
+        justify-items: center;
+        border: none;
+        cursor: pointer;
+        letter-spacing: 0.15rem;
+        margin-right: 1rem;
+    }
+
+    .bt:hover{
+        background-color: hsl(25, 97%, 53%);
+        color: hsl(0, 0%, 100%);
+    }
+
+    .bt:focus{
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(216, 12%, 54%);
+    }
+
+    .btnSubmit:hover{
+        color: hsl(25, 97%, 53%);
+        background-color:  hsl(0, 0%, 100%);
+    }
+
+    .star img{
+        border-radius: 5rem;
+        background-color: hsl(213, 19%, 18%);
+        padding: 1rem;
+    }
+
+    .slc{
+        color: hsl(25, 97%, 53%);
+        background-color:hsl(213, 19%, 18%);
+        width: 12rem;
+        height: 2rem;
+        padding-top: 0.7rem;
+        padding-left: 3rem;
+        margin-left: 3rem;
+        border-radius: 2rem;
+    }
+    
+    .p-2, .h1-2{
+        text-align: center;
+    }
+
+    .thank img{
+        margin-left: 5rem;
+    }
+
+@media all and (max-width: 600px) {
+    .conteudo{
+        display: block;
+        width: 20rem;
+    }
+
+    .conteudo{
+        display: block;
+        width: 20rem;
+    }
+
+    .conteudo2{
+        display: none;
+        width: 20rem;
+    }
+
+    p, .p-2{
+        font-size: 1.01rem;
+    }
+
+    .bt{
+        margin-right: 0.5rem;
+    }
+
+    .btnSubmit{
+        padding-right: 8rem;
+        padding-left: 8rem; 
+    }
+}  
